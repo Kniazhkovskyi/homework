@@ -4,7 +4,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-df = pd.read_csv('/Users/kovas/Prjktr/homework/Milestone_7(Ancient)/database.csv')
+df = pd.read_csv('/Users/kovas/Prjktr/homework/Milestone_7Ancient/database.csv')
 
 employees = df.to_dict(orient='records')
 
